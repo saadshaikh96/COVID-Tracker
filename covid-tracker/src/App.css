@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app__dropdown {
+  background-color: white;
+}
+
+.app__header {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+  color: teal;
+}
+
+.app__statstile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__lefthalf {
+  flex: 0.9;
+}
+
+.app__righthalfCardContent > h3 {
+  color: #574b4b;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.app__righthalfCardContent > h3:last-of-type {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}

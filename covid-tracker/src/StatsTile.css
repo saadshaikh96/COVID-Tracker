@@ -1,0 +1,51 @@
+.statsTile {
+  flex: 1;
+  cursor: pointer;
+}
+
+.statsTile:not(:last-child) {
+  margin-right: 10px;
+}
+
+.statsTile--selected {
+  border-top: 10px solid transparent;
+}
+
+.statsTile--orange {
+  border-color: rgba(255, 153, 0, 0.993);
+}
+
+.statsTile--green {
+  border-color: green;
+}
+
+.statsTile--red {
+  border-color: red;
+}
+
+.statsTile__cases--orange {
+  color: rgba(255, 153, 0, 0.993) !important;
+}
+
+.statsTile__cases--green {
+  color: green !important;
+}
+
+.statsTile__cases--red {
+  color: red !important;
+}
+
+.statsTile__permillion {
+  color: #eb8a0b;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-top: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.statsTile__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 10px !important;
+}
